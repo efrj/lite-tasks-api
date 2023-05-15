@@ -38,19 +38,6 @@ Execute o comando com o Docker para rodar as migrations no container do PHP
 
 Acesse a API através da url "http://localhost:8000" 
 
-Execute os testes unitários no container do PHP. 
-Entre no container 
-
-``docker container exec -it php.products-api /bin/bash`` 
-
-Volte um diretório 
-
-``cd ..``
-
-Use o comando "php artisan test" 
-
-``php artisan test``
-
 O arquivo "Tasks_Postman_Collection.json" presente na raiz do projeto contém os endpoints da API e pode ser importado no Postman/Insomnia. 
 
 Há uma aplicação front-end que consome esta API. O repositório é este: https://github.com/efrj/lite-tasks-front-end
